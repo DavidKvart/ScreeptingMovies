@@ -1,0 +1,85 @@
+.tryout {
+    width: 15%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.286);
+
+
+}
+
+.select-sizing {
+    max-width: max-content;
+}
+
+.photoControl {
+    max-width: 80vh;
+    margin-top: 16px;
+}
+
+.buttonCollum {
+    width: 10px;
+}
+
+.likesCollum {
+    width: 10px;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.row-2-col-2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0%;
+    align-items: center;
+    text-align: center;
+
+}
+
+div.col-1 {
+    background-color: rgba(0, 0, 0, 0.851);
+    padding-left: 0px;
+    margin-left: 12px;
+}
+
+.color-me {
+    color: aliceblue;
+    text-decoration: none;
+
+
+}
+
+.color-me:hover {
+    color: blanchedalmond;
+}
+
+.table {
+    text-align: center;
+}
+
+.tableBody {
+    font-weight: 500;
+}
+
+.sideBarStyle {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.paginationStyle.li {
+    background-color: black;
+}
+
+.my-link {
+    position: relative;
+}
+
+.my-badge {
+    position: absolute;
+    top: 0.3rem;
+    right: 0.3rem;
+    z-index: 1;
+    font-size: 10px;
+    color: black;
+}
