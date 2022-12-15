@@ -35,7 +35,6 @@ class Contain extends Component {
 
     //////handle the amount of pages needed to be displayed
     handleMovieCounter = (ev) => {
-
         let movieAmount = ev.target.value;
         this.setState({ movieAmount });
     }

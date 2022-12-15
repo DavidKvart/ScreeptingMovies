@@ -70,7 +70,7 @@ const AddMovieForm = (props) => {
                         </div>
 
                         <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Example textarea</label>
+                            <label for="exampleFormControlTextarea1">Description</label>
                             <textarea {...register("informaition", { required: 'this is required' })} class="form-control" rows="3"></textarea>
                             <p>{errors.informaition?.message}</p>
                         </div>

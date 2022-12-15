@@ -1510,6 +1510,7 @@ const dataBase = [
 
 
 /////turns the data into objects and arrays set to my willing ///////////
+///// care that some of the objects came with the ancor string as description
 
 
 
@@ -1523,18 +1524,19 @@ let fillteredArray = {
 
 
 ///////sets action array/////
+///same nots for all the lines of code so i show it only for action
 for (let i = 0; i < dataBase[0].length; i++) {
+  /// generate random numbers for the ID generator//
   let randnumber1 = Math.random() * 5;
   let randnumber2 = Math.random() * 5;
 
   fillteredArray.action.push({
-
-    id: i + dataBase[0][i].name.substring(randnumber1, randnumber2) + Math.round((Math.random() * 10) * 10) / 100,
+    id: i + dataBase[0][i].name.substring(randnumber1, randnumber2) + Math.round((Math.random() * 10) * 10) / 100,//sets a random id under 6 latters
     name: dataBase[0][i].name,
-    genre: dataBase[0][i].genre.slice(1).trim(),
-    rating: Math.round((Math.random() * 10)) + '/10',
+    genre: dataBase[0][i].genre.slice(1).trim(),//takes the spaces and the /n from each string
+    rating: Math.round((Math.random() * 10)) + '/10',//generate random rating
     like: false,
-    informaition: dataBase[0][i].informaition.slice(1)
+    informaition: dataBase[0][i].informaition.slice(1)//takes the /n off
   })
 
 }

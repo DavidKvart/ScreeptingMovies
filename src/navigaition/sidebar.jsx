@@ -36,8 +36,6 @@ function SideBar(props) {
                         <SidebarMenu.Body>
                                 <SidebarMenu.Nav style={{ paddingTop: '18px' }} className='my-link'>
                                         <SidebarMenu.Nav.Link style={{ textDecoration: 'none' }}>
-                                                <SidebarMenu.Nav.Icon>
-                                                </SidebarMenu.Nav.Icon>
                                                 <SidebarMenu.Nav.Title  >
                                                         <Link className='color-me ' to="/action">
                                                                 Action
@@ -50,9 +48,6 @@ function SideBar(props) {
                                 <SidebarMenu.Nav style={{ paddingTop: '18px' }} className='my-link'>
 
                                         <SidebarMenu.Nav.Link style={{ textDecoration: 'none' }} >
-                                                <SidebarMenu.Nav.Icon>
-                                                        {/* Menu item icon */}
-                                                </SidebarMenu.Nav.Icon>
                                                 <SidebarMenu.Nav.Title>
                                                         <Link className='color-me' to="/comedy">Comedy
                                                                 <Badge bg="light" className="my-badge" pill position="top" align="right">{comedyLengh}</Badge></Link>
@@ -63,9 +58,6 @@ function SideBar(props) {
 
                                 <SidebarMenu.Nav style={{ paddingTop: '18px' }} className='my-link'>
                                         <SidebarMenu.Nav.Link style={{ textDecoration: 'none' }}>
-                                                <SidebarMenu.Nav.Icon>
-                                                        {/* Menu item icon */}
-                                                </SidebarMenu.Nav.Icon>
                                                 <SidebarMenu.Nav.Title>
                                                         <Link className='color-me' to="/drama">
                                                                 <Badge bg="light" className="my-badge" pill position="top" align="right">{dramaLengh}</Badge>Drama </Link>
@@ -75,9 +67,6 @@ function SideBar(props) {
 
                                 <SidebarMenu.Nav style={{ paddingTop: '18px' }} className='my-link'>
                                         <SidebarMenu.Nav.Link style={{ textDecoration: 'none' }}>
-                                                <SidebarMenu.Nav.Icon>
-                                                        {/* Menu item icon */}
-                                                </SidebarMenu.Nav.Icon>
                                                 <SidebarMenu.Nav.Title >
                                                         <Link className='color-me' to="/fantasy">
                                                                 <Badge bg="light" className="my-badge" pill position="top" align="right">{fantasyLengh}</Badge>Fantasy </Link>
@@ -87,9 +76,6 @@ function SideBar(props) {
 
                                 <SidebarMenu.Nav style={{ paddingTop: '18px' }} className='my-link'>
                                         <SidebarMenu.Nav.Link style={{ textDecoration: 'none' }}>
-                                                <SidebarMenu.Nav.Icon>
-                                                        {/* Menu item icon */}
-                                                </SidebarMenu.Nav.Icon>
                                                 <SidebarMenu.Nav.Title>
                                                         <Link className='color-me' to="/horror">
                                                                 <Badge bg="light" className=" dark my-badge" pill position="top" align="right">{horrorLengh}</Badge>
